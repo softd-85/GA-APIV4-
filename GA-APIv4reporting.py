@@ -10,8 +10,10 @@ import csv, time
 import datetime
 
 SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
-KEY_FILE_LOCATION = 'dbi-prosegur-3275753-301f793aa0d9.json'
-VIEW_ID = '159756332'
+#Create a new Google Analytics API Project: https://console.developers.google.com/flows/enableapi?apiid=analytics
+#Create a new Google Analytics API Project: https://www.youtube.com/watch?v=o50lrTq9DjQ
+KEY_FILE_LOCATION = 'YOUR JSON CREDENTIALS FILE'
+VIEW_ID = 'YOUR VIEW ID'
 
 START_DATE = 'yesterday'
 END_DATE = 'yesterday'
@@ -117,10 +119,3 @@ def main():
 
 if __name__ == '__main__':
   main()
-
-
-# In[ ]:
-
-
-
-
