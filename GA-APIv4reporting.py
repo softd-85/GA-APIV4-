@@ -81,7 +81,6 @@ def arrangedict(response):
 
 def convert_to_csv(array, nombre):
     #crear y abrir cs nombre = report.name ()v
-    #to do: cambiarle el nombre por la fecha + el nombre del reporte. El nombre del reporte no lo tenemos, hay que traerlo.
     nombre = report_config.name ()
     timestr = time.strftime("%Y%m%d_%H%M%S")
     nombreok = nombre + "_" + timestr  
